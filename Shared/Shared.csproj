@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	<RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+	<TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Shared</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.5.0" PrivateAssets="none" />
+    <PackageReference Include="Azure.Security.KeyVault.Certificates" Version="4.2.0" PrivateAssets="none" />
+    <PackageReference Include="Azure.Security.KeyVault.Keys" Version="4.2.0" PrivateAssets="none" />
+    <PackageReference Include="Azure.Security.KeyVault.Secrets" Version="4.2.0" PrivateAssets="none" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.10.0" PrivateAssets="none" />
+    <PackageReference Include="Confluent.Kafka" Version="1.8.2" PrivateAssets="none" />
+    <PackageReference Include="Microsoft.IdentityModel.Clients.ActiveDirectory" Version="5.2.9" PrivateAssets="none" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Azure.Data.SchemaRegistry.ApacheAvro" Version="1.0.0-beta.1" />
+    <PackageReference Include="Azure.Data.SchemaRegistry" Version="1.0.0-beta.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+</Project>

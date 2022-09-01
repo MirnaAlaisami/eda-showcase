@@ -1,0 +1,14 @@
+{
+  "namespace": "Shared.Kafka.SchemaRegistry",
+  "type": "record",
+  "name": "UploadedEventInfo",
+  "fields": [
+    {
+      "name": "uri",
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "namespace": "Shared.Kafka.SchemaRegistry",
+  "type": "record",
+  "name": "DownloadedEventInfo",
+  "fields": [
+    {
+      "name": "uri",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "location",
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  ]
+}

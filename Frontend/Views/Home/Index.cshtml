@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home page";
+}
+<div class="container"><br>
+    <br>
+    <h2>Welcome to Upload Page</h2>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <form method="post" EncType="multipart/form-data" asp-controller="Home" asp-action="Blob">
+                <br>
+                <div class="form-group">
+                    <span>Upload data to (select one): </span>
+                    <select id="location" name="location">
+                        <option value="Stuttgart">Stuttgart</option>
+                        <option value="Hamburg">Hamburg</option>
+                        <option value="Frankfurt">Frankfurt</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="file" id="postedFile" name="postedFile">
+                    <input type="submit" value="Upload Data" class="btn btn-secondary">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
