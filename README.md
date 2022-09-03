@@ -35,9 +35,9 @@ For questions or comments, feel free to raise an issue or contact me:
 
 * Have an *Azure Tenant* and a *Subscription* in it
 * [Rigister an application](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) within your directory (*Azure AD*)
-* [Add a Client Secret](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#add-a-client-secret) to your *App registration*
+* [Add a Client Secret](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#add-a-client-secret) to your app registration
 * [Add an App role](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps#declare-roles-for-an-application) to your app registration
-* [Assign the new role to a user](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps#assign-users-and-groups-to-roles) of your Azure AD, who is allowed to upload data later on
+* [Assign the new role to a user in your Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps#assign-users-and-groups-to-roles), who is allowed to upload data later on
 * Create a *Resource group* within your *Subscrption*
 * [Create a Storage Account](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal) within your *Subscription* and your *Resource Group*
 * Add a role assignment for your enterprise application to your storage account
