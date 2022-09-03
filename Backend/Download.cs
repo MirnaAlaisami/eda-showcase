@@ -86,7 +86,6 @@ namespace Backend
                     machineLocation.Hamburg = true;
                     break;
                 case "3333":
-                    machineLocation.Hamburg = true;
                     machineLocation.Frankfurt = true;
                     break;
                 default:
