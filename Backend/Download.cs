@@ -51,7 +51,7 @@ namespace Backend
                 if (machineLocation.Frankfurt)
                     location = "Frankfurt";
                 string blobUri = msg.Value.uri;
-                Console.WriteLine("Received Message that blob" + blobUri + " has been uploaded in " + location);
+                Console.WriteLine("Received Message that blob " + blobUri + " has been uploaded in " + location);
                 if (downloaderLocation == "Stuttgart")
                 {
                     Console.WriteLine("I'm the central location, so I have to download all the data!");
