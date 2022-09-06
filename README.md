@@ -14,7 +14,7 @@ Welcome to __EDA-Showcase__ repository!
 
 Here you can find materials from my conference talk about implementing event-driven architecture using Azure cloud services .
 
-* Slides: tbd
+* Slides: <https://speakerdeck.com/mirnaalaisami/eda-for-the-win>
 * Recording: tbd
 
 For questions or comments, feel free to raise an issue or contact me:
