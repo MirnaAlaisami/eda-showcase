@@ -64,7 +64,7 @@ namespace Frontend.Controllers
             string keyName = System.Environment.GetEnvironmentVariable("KEY_NAME");
             string tokenRequestContext = "https://" + System.Environment.GetEnvironmentVariable("EVENTHUB_NAMESPACE") + ".servicebus.windows.net/.default";
             string bootstrapServer = System.Environment.GetEnvironmentVariable("EVENTHUB_NAMESPACE") + ".servicebus.windows.net:9093";
-            string topic = "datauploaded";
+            string topic = System.Environment.GetEnvironmentVariable("TOPIC");
             string SchemaRegistryUrl = "https://" + System.Environment.GetEnvironmentVariable("EVENTHUB_NAMESPACE") + ".servicebus.windows.net";
             string endpoint = System.Environment.GetEnvironmentVariable("EVENTHUB_NAMESPACE") + ".servicebus.windows.net";
             string schemaGroup = System.Environment.GetEnvironmentVariable("SCHEMA_GROUP");

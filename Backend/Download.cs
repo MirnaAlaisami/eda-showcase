@@ -15,7 +15,7 @@ namespace Backend
         static readonly string endpoint = System.Environment.GetEnvironmentVariable("EVENTHUB_NAMESPACE") + ".servicebus.windows.net";
         static readonly string schemaGroup = System.Environment.GetEnvironmentVariable("SCHEMA_GROUP");
         static readonly string tokenRequestContext = "https://" + System.Environment.GetEnvironmentVariable("EVENTHUB_NAMESPACE") + ".servicebus.windows.net/.default";
-        static readonly string topic = "datauploaded";
+        static readonly string topic = System.Environment.GetEnvironmentVariable("TOPIC");
         static readonly string keyName = System.Environment.GetEnvironmentVariable("KEY_NAME");
         static readonly DefaultAzureCredential credentialToken = new DefaultAzureCredential();
         CryptographyClient cryptoClient = new CryptographyClient(new Uri(keyName), credentialToken);

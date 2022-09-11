@@ -42,7 +42,7 @@ For questions or comments, feel free to raise an issue or contact me:
 * [Create a Storage Account](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal) within your *Subscription* and your *Resource Group*
 * Add a role assignment for your enterprise application to your storage account
 * [Create an Event Hub Namespace](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-create#create-an-event-hubs-namespace) within your *Subscription* and your *Resource group*
-* Add an Event Hub (datauploaded) to your Event Hub Namespace.
+* Add an Event Hub to your Event Hub Namespace.
 * [Add a Schema Group](https://docs.microsoft.com/en-us/azure/event-hubs/create-schema-registry) to your *Schema Registry*
 * Add a role assignment for your enterprise application to your event hub namespace
 * Add a role assignment for your enterprise application to your schema registry
@@ -61,6 +61,7 @@ Set the following environment variables from the Azure configuration in the prev
 * KEY_NAME
 * EVENTHUB_NAMESPACE
 * SCHEMA_GROUP
+* TOPIC
 
 ```
 ```
